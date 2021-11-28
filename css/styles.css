@@ -11,6 +11,9 @@
 Цвет текста заголовков: #212121
 Базовый цвет логотипа: #000000
 
+--------Цвет кнопок------
+Первичный цвет кнопок: #F5F4FA
+
 --------Цвет акцента-----
 Цвет акцента текста: #2196F3
 Цвет акцента элемента: #2196F3
@@ -25,6 +28,8 @@
   --secondary-text-color: #ffffff;
   --title-text-color: #212121;
   --logo-basic-text-color: #000000;
+
+  --primary-button-color: #f5f4fa;
 
   --text-accent-color: #2196f3;
   --element-accent-color: #2196f3;
@@ -56,6 +61,7 @@ h3 {
   color: var(--title-text-color);
 }
 
+/* I. Стили главной страницы */
 /* Шапка сайта */
 .logo {
   color: var(--logo-basic-text-color);
@@ -229,4 +235,52 @@ address {
 .footer .contact-number:hover,
 .footer .contact-number:focus {
   color: var(--text-accent-color);
+}
+
+/* II. Стили страницы "Портфолио" */
+/* Список фильтров */
+.filters-list {
+  list-style: none;
+}
+
+.btn {
+  color: var(--title-text-color);
+  background-color: var(--primary-button-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.btn:hover,
+.btn:focus {
+  color: var(--secondary-text-color);
+  background-color: var(--element-accent-color);
+}
+
+/* Список работ студии */
+.works-list {
+  list-style: none;
+}
+
+.works-item-link {
+  text-decoration: none;
+}
+
+.works-list .item-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-align: left;
+}
+
+.works-list .item-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  text-align: left;
 }
