@@ -42,6 +42,20 @@ body {
   letter-spacing: 0.03em;
 }
 
+h2 {
+  color: var(--title-text-color);
+
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+h3 {
+  color: var(--title-text-color);
+}
+
 /* Шапка сайта */
 .logo {
   color: var(--logo-basic-text-color);
@@ -139,4 +153,53 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+}
+
+/* Преимущества / особенности ВебСтудии */
+
+.benefits-list {
+  list-style: none;
+}
+.benefits-list .item-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* Услуги ВебСтудии */
+.services-list {
+  list-style: none;
+}
+
+/* Наша команда */
+.team {
+  background-color: var(--section-bg-color);
+}
+
+.team-list {
+  list-style: none;
+}
+
+.team-item-link {
+  text-decoration: none;
+}
+
+.item-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.item-text {
+  color: var(--primary-text-color);
+
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
