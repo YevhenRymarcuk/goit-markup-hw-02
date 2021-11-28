@@ -203,3 +203,30 @@ h3 {
   text-align: center;
   letter-spacing: 0.03em;
 }
+
+/* Подвал сайта */
+footer {
+  background-color: var(--secondary-bg-color);
+}
+
+address {
+  color: var(--secondary-text-color);
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer .contact-mail,
+.footer .contact-number {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .contact-mail:hover,
+.footer .contact-mail:focus,
+.footer .contact-number:hover,
+.footer .contact-number:focus {
+  color: var(--text-accent-color);
+}
