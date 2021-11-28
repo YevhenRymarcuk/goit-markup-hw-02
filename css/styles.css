@@ -278,6 +278,8 @@ address {
 }
 
 .works-list .item-text {
+  color: var(--primary-text-color);
+
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
