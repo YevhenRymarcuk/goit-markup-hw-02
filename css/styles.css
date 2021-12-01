@@ -152,6 +152,8 @@ h3 {
   color: var(--secondary-text-color);
   background-color: var(--element-accent-color);
 
+  font-family: Roboto, sans-serif;
+  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
